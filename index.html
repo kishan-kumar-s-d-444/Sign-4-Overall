@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignSpeak - Modern Sign Language Learning</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+    <link rel="stylesheet" href="static/css/index.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>SignSpeak</h1>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="text_to_sign.html">Text to Sign</a>
+                <a href="image_to_sign.html">Image to Sign</a>
+                <a href="webcam.html">Webcam</a>
+                <a href="alphabet.html">Learn Alphabet</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Breaking Barriers Through Sign Language</h2>
+                <p>
+                    Discover a new way to learn and communicate with  Sign Language using our interactive platform.
+                </p>
+                <div class="cta-buttons">
+                    <a href="webcam.html" class="cta-primary">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="m22 8-6-6H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8Z"></path>
+                            <path d="M18 8h-6V2h-2v20h2v-8h6v8h2V8h-2Z"></path>
+                        </svg>
+                        Try Now
+                    </a>
+                    <a href="alphabet.html" class="cta-secondary">
+                        Learn Alphabet
+                    </a>
+                </div>
+                <div class="warning">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 9v4"></path>
+                        <path d="M12 16h.01"></path>
+                        <path d="M2.99 12.04A9 9 0 0 0 12 21a9 9 0 0 0 9-9c0-4.97-4.03-9-9-9A8.94 8.94 0 0 0 3 12"></path>
+                    </svg>
+                    Sample For Tesing.
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="static\image\GestureL-LandingPic.png" alt="Person using sign language with digital interface overlay" />
+            </div>
+        </section>
+
+        <div class="features-header">
+            <h3>Interactive Learning Features</h3>
+            <p>Explore our comprehensive tools designed to make learning sign language engaging and effective</p>
+        </div>
+        
+        <div class="features">
+            <a href="text_to_sign.html" class="feature">
+            <div class="feature-icon">📝</div>
+            <h3>Text to Sign</h3>
+            <p>Convert written text into the corresponding sign language.</p>
+            </a>
+            <a href="image_to_sign.html" class="feature">
+            <div class="feature-icon">📸</div>
+            <h3>Image to Sign</h3>
+            <p>Upload an image and analyze the corresponding sign language.</p>
+            </a>
+            <a href="webcam.html" class="feature">
+            <div class="feature-icon">📹</div>
+            <h3>Webcam</h3>
+            <p>Practice sign language with instant feedback through tracking using a webcam.</p>
+            </a>
+            <a href="alphabet.html" class="feature">
+            <div class="feature-icon">🔤</div>
+            <h3>Learn ASL Alphabet</h3>
+            <p>An interactive guide to mastering the ASL alphabet.</p>
+            </a>
+        </div>
+
+        <section class="user-guides">
+            <div class="guides-header">
+                <h3>User Guides</h3>
+                <p>Learn how to use SignSpeak's features effectively and understand their current limitations</p>
+            </div>
+            
+            <div class="guides-container">
+                <div class="guide-item">
+                    <h4>Text to Sign Guide</h4>
+                    <div class="guide-content">
+                        <h5>How to Use:</h5>
+                        <ol>
+                            <li>Enter text in the input field (max 70 characters)</li>
+                            <li>Only letters and spaces will be translated</li>
+                            <li>Click "Translate to Sign Language" button</li>
+                            <li>Switch between Image and Avatar modes</li>
+                        </ol>
+                        <h5>Limitations:</h5>
+                        <ul>
+                            <li>Currently only supports individual letters, not complete ASL grammar</li>
+                            <li>Special characters and numbers may not translate correctly</li>
+                            <li>Avatar mode requires more processing power</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="guide-item">
+                    <h4>Image to Sign Guide</h4>
+                    <div class="guide-content">
+                        <h5>How to Use:</h5>
+                        <ol>
+                            <li>Click "Choose Image" button to upload a photo</li>
+                            <li>Select an image showing a clear hand sign</li>
+                            <li>Click "Analyze Sign Language" button</li>
+                            <li>Wait for the processing to complete</li>
+                        </ol>
+                        <h5>Tips for Best Results:</h5>
+                        <ul>
+                            <li>Use good lighting with a plain background</li>
+                            <li>Ensure your hand fills a good portion of the image</li>
+                            <li>Position your hand clearly with fingers visible</li>
+                            <li>Only one hand should be visible in the frame</li>
+                        </ul>
+                        <h5>Limitations:</h5>
+                        <ul>
+                            <li>Only detects ASL letters (A-Z)</li>
+                            <li>Recognition accuracy varies based on image quality</li>
+                            <li>Cannot interpret complex or dynamic signs</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="guide-item">
+                    <h4>Webcam Recognition Guide</h4>
+                    <div class="guide-content">
+                        <h5>How to Use:</h5>
+                        <ol>
+                            <li>Click "Enable Camera" button</li>
+                            <li>Allow browser camera permissions</li>
+                            <li>Position your hand in the camera view</li>
+                            <li>Hold each sign steady for recognition</li>
+                        </ol>
+                        <h5>Tips for Best Results:</h5>
+                        <ul>
+                            <li>Use good lighting conditions</li>
+                            <li>Keep a clean background behind your hand</li>
+                            <li>Position yourself approximately 1-2 feet from the camera</li>
+                            <li>Move slowly when transitioning between signs</li>
+                        </ul>
+                        <h5>Limitations:</h5>
+                        <ul>
+                            <li>Recognition works best with ASL alphabet signs</li>
+                            <li>Performance may vary across different devices and browsers</li>
+                            <li>Currently optimized for one-handed signs only</li>
+                            <li>May struggle with certain complex hand positions</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="guide-item">
+                    <h4>Learn Alphabet Guide</h4>
+                    <div class="guide-content">
+                        <h5>How to Use:</h5>
+                        <ol>
+                            <li>Browse through the alphabet reference images</li>
+                            <li>Click on a letter to select it for practice</li>
+                            <li>Enable your camera to practice the selected sign</li>
+                            <li>Receive instant feedback on your hand position</li>
+                        </ol>
+                        <h5>Practice Tips:</h5>
+                        <ul>
+                            <li>Start with simple signs like A, B, C before progressing</li>
+                            <li>Practice each sign several times before moving to the next</li>
+                            <li>Use the quick alphabet links to jump to specific letters</li>
+                            <li>Toggle sound feedback on/off as needed</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+          
+        </section>
+    </main>
+    <footer>
+        <p>Developed with  as part of the SDG-4 Project | <a href="https://github.com/Lart101/AslSignLanguageWeb">Learn More</a></p>
+    </footer>
+    <script>
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            this.classList.toggle('active');
+            document.querySelector('nav').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
